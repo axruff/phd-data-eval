@@ -21,7 +21,7 @@ Benchmarking approach follows the procedure described in:
 
 ![alt text](https://github.com/axruff/phd-data-eval/blob/master/screenshots/exp_noise_hyd.png "Nose Modelling")
 
-Figure: Modeling noise for the Hydrangea dataset using the Gaussian noise model.
+Figure: Modeling noise for the *Hydrangea* dataset using the *Gaussian* noise model.
 (a) First frame of the original image sequence. (b) Image with added Gaussian noise
 with standard deviation *sigma* = 20. (c) Image with added Gaussian noise with standard
 deviation *sigma* = 40. Bottom Row: Corresponding histograms. Note a dramatic change in
