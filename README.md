@@ -17,7 +17,7 @@ Benchmarking approach follows the procedure described in:
 
 
 
-## Example: Image Noise
+## Example: Image noise
 
 ![alt text](https://github.com/axruff/phd-data-eval/blob/master/screenshots/exp_noise_hyd.png "Nose Modelling")
 
@@ -34,3 +34,14 @@ For all datasets an average *endpoint error* (AEE) is shown in 3 regions: *All* 
 depicted as a green plot; *Untext* region as a blue plot and *Disc* region as a red plot.
 Left: *RubberWhale* dataset. Middle: *Hydrangea* dataset. Right: *New Marble* dataset.
 Method: *Baseline* optical flow algorithm
+
+## Example: Models comparison on degraded data
+
+![alt text](https://github.com/axruff/phd-data-eval/blob/master/screenshots/exp_models.png "Models comparison")
+
+Figure: Comparison of optical flow models M1 - M7 on the *RubberWhale* dataset
+with added noise and image artifacts. (a) First frame of degraded image sequence. (b)
+Second frame of the sequence. (c) Ground truth result. (d) Model M1: Classical Horn
+and Schunck. (e) Model M2 = M1 + flow-driven smoothness term. (f) Model M3 = M2 + multi-level computation. (g) Model M5 = M4 + robust data term + combined localglobal approach. (h) Model M7 = M5 + median filtering + data refinement step.
+
+
