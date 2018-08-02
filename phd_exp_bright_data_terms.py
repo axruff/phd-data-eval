@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
-
-This temporary script file is located here:
-C:\Users\fe0968\.spyder2\.temp.py
+Copyright 2008-2016. Karlsruhe Institute of Technology
+Data evaluation scripts for benchmarking of optical flow methods on X-ray data
+PhD thesis: "Automated Analysis of Time-resolved X-ray Data using Optical Flow Methods"
+Author: Alexey Ershov
+Fulltext link: https://publikationen.bibliothek.kit.edu/1000055519
 """
 
 from numpy import *
